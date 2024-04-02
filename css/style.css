@@ -1,0 +1,84 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 760px) {
+  .swiper-button-next {
+    right: 20px;
+    transform: rotate(90deg);
+  }
+
+  .swiper-button-prev {
+    left: 20px;
+    transform: rotate(90deg);
+  }
+  .Client_Review_inner {
+    margin: 0 auto;
+  }
+
+
+}
+
+.Client_Review_outer {
+    width: 100%;
+    padding: 30px 30px;
+  }
+  
+  .Client_Review_inner {
+    box-shadow: 0px 3px #42A7E0;
+    border-radius: 20px;
+    background-color: #F6FBFD;
+    max-width: 380px;
+  }
+  
+  .Client_Review_nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 52px 65px 25px 20px;
+  }
+  
+  .Client_Review_logo {
+    width: 60px;
+  }
+  
+  .Client_Review_logo img {
+    width: 100%;
+  }
+  
+  .rat {
+    padding-left: 20px;
+  }
+  
+  .Client_Review_comment {
+    max-width: 317px;
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  
+  
